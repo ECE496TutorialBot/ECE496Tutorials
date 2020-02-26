@@ -7,7 +7,7 @@ class TestCases(unittest.TestCase):
 		self.assertEqual(1, 1)
 
 	def test_sanity(self):
-		self.assertEqual("abc", code.id("abc"))
+		self.assertEqual("abc", code.identity_fn("abc"))
 
 if __name__ == "__main__":
 	unittest.main()
