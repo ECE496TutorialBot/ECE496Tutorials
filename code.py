@@ -1,5 +1,5 @@
 def add(a,b):
     return a+b
 
-def id(a):
+def identity_fn(a):
     return a
